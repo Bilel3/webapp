@@ -15,16 +15,17 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-      <repositories>
+        <repositories>
         <repository>
-         <id>LocalTomcat</id>
-         <url>http://172.17.0.5:9090/</url>
+         <id>nexus-snapshots</id>
+         <url>http://172.17.0.3:8081/repository/maven-snapshots/</url>
         </repository>
     </repositories>
-  <distributionManagement>
+
+<distributionManagement>
    <snapshotRepository>
-      <id>localTomcat</id>
-      <url>http://172.17.0.5:9090/</url>
+      <id>nexus-snapshots</id>
+      <url>http://172.17.0.3:8081/repository/maven-snapshots/</url>
    </snapshotRepository>
 </distributionManagement>
   <build>
