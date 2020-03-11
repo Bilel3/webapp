@@ -18,9 +18,15 @@
       <repositories>
         <repository>
          <id>LocalTomcat</id>
-         <url>file:///C:/Program%20Files/apache-tomcat-9.0.31/webapps/</url>
+         <url>file:///C:/Program%20Files/apache-tomcat-9.0.31/webapps</url>
         </repository>
     </repositories>
+  <distributionManagement>
+   <snapshotRepository>
+      <id>localTomcat</id>
+      <url>file:///C:/Program%20Files/apache-tomcat-9.0.31/webapps/</url>
+   </snapshotRepository>
+</distributionManagement>
   <build>
     <finalName>WebApp</finalName>
   </build>
