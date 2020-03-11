@@ -18,13 +18,13 @@
       <repositories>
         <repository>
          <id>LocalTomcat</id>
-         <url>http://172.17.0.3:8001/</url>
+         <url>http://172.17.0.5:8001/</url>
         </repository>
     </repositories>
   <distributionManagement>
    <snapshotRepository>
       <id>localTomcat</id>
-      <url>http://172.17.0.3:8001/</url>
+      <url>http://172.17.0.5:8001/</url>
    </snapshotRepository>
 </distributionManagement>
   <build>
